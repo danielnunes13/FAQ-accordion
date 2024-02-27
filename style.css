@@ -1,5 +1,5 @@
 body {
-    background-image: url('/src/images/background-pattern-desktop.svg');
+    background-image: url(/src/images/background-pattern-desktop.svg);
 background-size: 100%;
     background-repeat: no-repeat;
     background-color: var(--main-bg-color);
@@ -39,7 +39,7 @@ article .accordion-header {
     color: var(--heading-text-color);
     margin-bottom: 1.3rem;
     cursor: pointer;
-    --url: url('/src/images/icon-plus.svg');
+    --url: url(/src/images/icon-plus.svg);
 }
 
 article .accordion-header:hover,
