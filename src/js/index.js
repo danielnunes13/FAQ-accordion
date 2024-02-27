@@ -3,10 +3,10 @@ const toggleAccordion = (e) => {
     const accordionBody = document.getElementById(targetedAccordion);
     if (accordionBody.style.display === 'none' || accordionBody.style.display === '') {
         accordionBody.style.display = 'block';
-        e.srcElement.style.setProperty('--url', "url('src/images/icon-minus.svg')");
+        e.srcElement.style.setProperty('--url', "url('/src/images/icon-minus.svg')");
     } else {
         accordionBody.style.display = 'none';
-        e.srcElement.style.setProperty('--url', "url('src/images/icon-plus.svg')");
+        e.srcElement.style.setProperty('--url', "url('/src/images/icon-plus.svg')");
     }
 }
 
