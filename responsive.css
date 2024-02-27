@@ -20,7 +20,7 @@
 
 @media (max-width: 415px) {
     body {
-        background-image: url(/src/images/background-pattern-mobile.svg);
+        background-image: url(src/images/background-pattern-mobile.svg);
         margin: 125px 1rem;
     }
 }
